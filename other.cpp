@@ -11,7 +11,6 @@ int main() {
   	cin >> array[i];
   }
   for(int i = 0; i < digit; i++) {
-  	//int value = array[i];
   	for(int j = 0; j < i; j++) {
 			if(array[j] > array[i]) {
 				swap(array[j],array[i]);
